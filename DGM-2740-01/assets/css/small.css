@@ -17,3 +17,22 @@ html
     content: "";
     
 }
+
+.header-sec
+{
+    background-color: darksalmon;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+
+.header-con
+{
+    max-width: 75rem;
+    background-color: aquamarine;
+    height: 100%;
+    order: 1;
+    width: 100vw;
+}
