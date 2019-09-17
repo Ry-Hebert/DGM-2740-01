@@ -1,3 +1,4 @@
+/* Prevent adjustment of font size when device layout is changed */
 html 
 {
     -webkit-text-size-adjust: 100%;
@@ -12,6 +13,14 @@ html
  box-sizing: border-box;  
 }
 
+/* Force an element not to collapse */
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .clearfix::after
 {
     content: "";
@@ -20,19 +29,46 @@ html
 
 .header-sec
 {
-    background-color: darksalmon;
-    height: 80px;
+    background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
+    height: 18rem;
 }
 
 .header-con
 {
     max-width: 75rem;
-    background-color: aquamarine;
     height: 100%;
     order: 1;
     width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darksalmon;
 }
+
+header h1
+{
+    font-size: 5rem;
+}
+
+.noBullList
+{
+    list-style: none;
+    padding: 0px;
+}
+
+.noBullList li
+{
+    display: inline;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+.noBullList li a
+{
+    text-decoration: none;
+    text-align: center;
+    color: darksalmon;
+}
+
