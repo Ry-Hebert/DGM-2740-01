@@ -72,3 +72,7 @@ header h1
     color: darksalmon;
 }
 
+a:active
+{
+background-color: rgb(180, 255, 230);
+}
