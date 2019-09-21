@@ -34,7 +34,7 @@ html
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    height: 18rem;
+    height: 14rem;
 }
 
 .header-con
@@ -60,9 +60,11 @@ header h1
 
 .noBullList li
 {
-    display: inline;
+    display: inline-block;
     padding: .5rem;
     font-size: 2rem;
+    height: 100%;
+    
 }
 
 .noBullList li a
@@ -72,7 +74,66 @@ header h1
     color: darksalmon;
 }
 
-a:active
+nav ul li:active
 {
 background-color: rgb(180, 255, 230);
+}
+
+.active
+{
+    background-color: rgb(180, 255, 230);
+}
+
+.landing-page
+{
+    max-width: 75rem;
+    height: calc(100vh - 18rem);
+}
+
+footer
+{
+width: 100vw;
+height: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.FP1
+{
+    height: 75%;
+}
+
+.FP2
+{
+    height: 25%;
+}
+
+h1
+{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+ul
+{
+    padding: 0rem;
+    margin: 0rem;
+    height: 100%;
+}
+
+nav
+{
+    height: 100%;
+}
+
+li
+{
+    padding: 0rem;
+    margin: 0rem;
+    height: 100%;
+}
+
+footer
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
