@@ -1,4 +1,4 @@
-@media (min-width: 560px)
+@media (min-width: 1028px)
 {
     .small-img
     {
@@ -7,12 +7,12 @@
 
     .medium-img
     {
-        display: flex;
-        max-width: 10rem;
+        display: none;
     }
 
     .large-img
     {
-        display: none;
+        display: flex;
+        max-width: 20rem;
     }
 }

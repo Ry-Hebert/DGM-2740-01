@@ -102,14 +102,16 @@ background-color: rgb(180, 255, 230);
     max-width: 75rem;
     width: 100%;
     font-size: 2.5rem;
+    color: darksalmon;
 }
 
 footer
 {
 width: 100vw;
-height: 2rem;
+height: 4rem;
 display: flex;
 justify-content: center;
+background-color: aquamarine;
 }
 
 .FP1
@@ -151,8 +153,7 @@ li
 .responsive-display
 {
     max-width: 75rem;
-    width: 75rem;
-    display: flex;
+    width: 100%;
 }
 
 .medium-img
@@ -165,7 +166,7 @@ li
     display: none;
 }
 
-footer
+.small-img
 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 10rem;
 }
