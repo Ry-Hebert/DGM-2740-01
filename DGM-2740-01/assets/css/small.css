@@ -3,6 +3,8 @@ html
 {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 /* Box Model */
@@ -86,8 +88,20 @@ background-color: rgb(180, 255, 230);
 
 .landing-page
 {
-    max-width: 75rem;
+    display: flex;
     height: calc(100vh - 18rem);
+    padding: 0rem;
+    margin: 0rem;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.landing-page-con
+{
+    max-width: 75rem;
+    width: 100%;
+    font-size: 2.5rem;
 }
 
 footer
@@ -132,6 +146,23 @@ li
     padding: 0rem;
     margin: 0rem;
     height: 100%;
+}
+
+.responsive-display
+{
+    max-width: 75rem;
+    width: 75rem;
+    display: flex;
+}
+
+.medium-img
+{
+    display: none;
+}
+
+.large-img
+{
+    display: none;
 }
 
 footer
